@@ -11,6 +11,7 @@ angular.module('app')
           for (prop in res){
             photos.push(res[prop]);
             if (res[prop].id == 10) break; 
+          }
         });
         return photos;
       }
